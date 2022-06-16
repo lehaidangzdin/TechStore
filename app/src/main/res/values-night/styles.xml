@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="color_checkbox" parent="Theme.AppCompat.Light">
+        <!--        check-->
+        <item name="colorAccent">@color/white</item>
+        <!--        default-->
+        <item name="android:textColorSecondary">#777777</item>
+    </style>
+</resources>

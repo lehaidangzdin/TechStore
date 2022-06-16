@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TechStore</string>
+    <string name="strChaoMung">Chào mừng bạn đến với</string>
+    <string name="strTechStore">Tech Store</string>
+    <string name="strTenDangNhap">Tên đăng nhập</string>
+    <string name="strMatKhau">Mật khẩu</string>
+    <string name="strReMatKhau">Nhập lại mật khẩu</string>
+    <string name="strNhoMatKhau">Nhớ mật khẩu</string>
+    <string name="strDangNhap">Đăng Nhập</string>
+    <string name="strDangNhap2"><u>Đăng Nhập</u></string>
+    <string name="strChuMatKhau">Chưa có tài khoản?</string>
+    <string name="strDangKiTaiDay"><u>Đăng kí tại đây!</u></string>
+    <string name="strDangKi">Đăng kí</string>
+
+    //change user
+    <string name="strDangXuat">Đăng xuất</string>
+    <string name="strMKCu">Mật khẩu cũ</string>
+    <string name="strMKMoi">Mật khẩu mới</string>
+    <string name="strNhapLai">Nhập lại mật khẩu</string>
+    <string name="strThayDoi">Thay đổi</string>
+    <string name="strDoiMK">Đổi mật khẩu</string>
+    <string name="strDoiThongTin">Đổi thông tin</string>
+    //
+    <string name="strHoTen">Họ và tên</string>
+    <string name="strNamSinh">Năm sinh</string>
+    <string name="strSodienThoai">Số điện thoại</string>
+    <string name="strDiaChi">Địa chỉ</string>
+    <string name="strThongBao">Thông báo</string>
+    //
+    <string name="strHoTenB"><b>Tên người nhận: </b></string>
+    <string name="strDiaChiB"><b>Địa chỉ: </b></string>
+    <string name="strSdtB"><b>Số điện thoại: </b></string>
+    <string name="strSoLuongB"><b>Số lượng mua: </b></string>
+
+    //fragment home
+    <string name="strDanhMucSp"><u>Danh mục sản phẩm</u></string>
+    <string name="strSanPhammoi"><u>Sản phẩm mới</u></string>
+    <string name="strThongTin">Thông tin thêm</string>
+    <string name="strThemGioHang">Thêm giỏ hàng</string>
+    <string name="strMuaNgay">Mua ngay</string>
+    <string name="strSearch">search</string>
+    <string name="strDiaChiNhanHang">Địa chỉ nhận hàng:</string>
+    <string name="strThanhToan">Thanh Toán</string>
+    <string name="strHoSo">Hồ sơ của tôi</string>
+    <string name="strUpdateThongTinKH">Đổi thông tin người dùng</string>
+    <string name="strUpdatePass">Đổi mật khẩu người dùng</string>
+    <string name="todo">TODO</string>
+    <string name="strSoLuongSpDaMua">Sản phẩm đã mua</string>
+    <string name="strSoLuongSpGH">Sản phẩm trong giỏ hàng</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="strDsSP">Danh sách sản phẩm:</string>
+    <string name="strChuaMuaSP">Bạn chưa mua sản phẩm nào!</string>
+</resources>

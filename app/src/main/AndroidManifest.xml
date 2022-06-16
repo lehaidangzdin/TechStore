@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DuAn1.techstore">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechStore">
+        <activity
+            android:name=".Activity.Activity_ChiTietHoaDon"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_Doi_Thong_Tin"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_Doi_Mat_Khau"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_Change_User"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_ThanhToan"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_Search"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_GioHang"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_PhuKien"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_MayTinhBang"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_DongHo"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_Laptop"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_DienThoai"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Activity_ChiTietSp"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ResigterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.ManChinhActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

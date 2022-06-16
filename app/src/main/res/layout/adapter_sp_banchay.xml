@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    android:layout_margin="3dp"
+    android:padding="8dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgSp"
+            android:layout_width="140dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/dienthoai" />
+
+        <TextView
+            android:id="@+id/tvTenSp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="2"
+            android:paddingHorizontal="8dp"
+            android:text="Samsung Galaaxy S20 FRddddddddd 256GB"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvGiaSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingHorizontal="8dp"
+            android:text="12.490.000 đ"
+            android:textColor="#FB0000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvGiaCuSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingHorizontal="8dp"
+            android:text="12.490.000 đ"
+            android:textColor="#B1B1B1"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/chkLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:button="@drawable/custom_checkbox"
+            android:gravity="center"
+            android:theme="@style/color_checkbox" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
