@@ -61,7 +61,6 @@ public class Activity_ThanhToan extends AppCompatActivity {
 
     private SanPham sanPham;
     private KhachHang khachHang;
-    private String userName;
     private Loading loading;
     int sl;
     int maHD;
